@@ -7,13 +7,13 @@ export class Colvert extends Canard {
     constructor() {
         super();
 
-        this.comportementCancan = new Cancan();
+        // this.comportementCancan = new Cancan();
         this.comportementVol = new VolerAvecDesAiles();
         
     }
     
 
-    afficher() {
-        console.log("Je suis un vrai Colvert")
+    afficher(): string {
+        return "Je suis un vrai Colvert";
     }
 }

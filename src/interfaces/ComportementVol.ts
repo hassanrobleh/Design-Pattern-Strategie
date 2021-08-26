@@ -1,4 +1,4 @@
 interface ComportementVol {
 
-    voler(): void;
+    voler(): string;
 }

@@ -1,6 +1,6 @@
 export class Cancan implements ComportementCancan {
 
-    cancaner() {
-        console.log("Cancane !!!");
+    cancaner(): string {
+        return "Cancane !!!";
     }
 }

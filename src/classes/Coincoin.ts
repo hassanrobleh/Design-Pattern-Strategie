@@ -1,6 +1,6 @@
 export class Coincoin implements ComportementCancan {
 
-    cancaner() {
-        console.log("Coincoin !!!")
+    cancaner(): string {
+        return "Coincoin !!!";
     }
 }

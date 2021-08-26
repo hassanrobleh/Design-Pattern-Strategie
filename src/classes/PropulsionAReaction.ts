@@ -1,6 +1,6 @@
 export class PropulsionAReaction implements ComportementVol {
 
-    voler() {
-        console.log("Je vole avec un réaction !");
+    voler(): string {
+        return "Je vole avec un réaction !";
     }
 }

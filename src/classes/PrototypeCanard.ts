@@ -8,12 +8,13 @@ export class PrototypeCanard extends Canard {
         super();
 
         this.comportementVol = new NePasVoler();
-        this.comportementCancan = new Cancan();
+        // this.comportementCancan = new Cancan();
+
         
     }
     
 
-    afficher() {
-        console.log("Je suis un Prototype de Canard");
+    afficher(): string {
+        return "Je suis un Prototype de Canard";
     }
 }

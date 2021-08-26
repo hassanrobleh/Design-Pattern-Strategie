@@ -1,3 +1,3 @@
 interface ComportementCancan {
-    cancaner(): void;
+    cancaner(): string;
 }
