@@ -7,9 +7,9 @@ describe('Stratégie test', () => {
         expect(App.main()).toBe("Cancane et Je vole !!!");
     });
 
-    it("'should be return Je vole !!!", () => {
+    it("'should be return Je ne sais pas voler !!!", () => {
         // let app = new App();
         // let result = app.main();
-        expect(App.main()).toBe("Je vole !!!");
-    })
+        expect(App.main1()).toBe("Je ne sais pas voler !!!");
+    });
 })

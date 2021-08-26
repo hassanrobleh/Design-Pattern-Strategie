@@ -9,19 +9,19 @@ export class App {
         result += colvert.effectuerCancan();
         result += colvert.effectuerVol();
         return result;
-        // console.log('-----------------------------')
-        
-        // const propo = new PrototypeCanard();
-        // propo.effectuerVol();
-        // console.log('-----------------------------')
-
-        // propo.setComportementVol(new PropulsionAReaction())
-        // propo.effectuerVol()
 
     }
 
-    main1() {
+    static main1() {
+        let propo = new PrototypeCanard();
+        return propo.effectuerVol();
 
+    }
+
+    static main2() {
+        let propo = new PrototypeCanard();
+        propo.setComportementVol(new PropulsionAReaction());
+        propo.effectuerVol();
     }
 }
 
