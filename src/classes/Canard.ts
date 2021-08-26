@@ -4,11 +4,11 @@ import { VolerAvecDesAiles } from './VolerAvecDesAiles';
 export abstract class Canard {
 
     comportementVol: ComportementVol;
-    // comportementCancan: ComportementCancan;
+    comportementCancan: ComportementCancan;
 
     constructor() {
         this.comportementVol = new VolerAvecDesAiles();
-        // this.comportementCancan = new Cancan();
+        this.comportementCancan = new Cancan();
     }
 
     // constructor(comportementVol: ComportementVol, comportementCancan: ComportementCancan) {
@@ -16,23 +16,23 @@ export abstract class Canard {
     //     this.comportementCancan = comportementCancan;
     // }
 
-    abstract afficher() : any;
+    abstract afficher() : string;
 
-    effectuerVol(): any {
-        this.comportementVol.voler();
+    effectuerVol(): string {
+        return this.comportementVol.voler();
     }
 
-    // effectuerCancan(): void {
-    //     this.comportementCancan.cancaner();
-    // }
+    effectuerCancan(): string {
+        return this.comportementCancan.cancaner();
+    }
 
     setComportementVol(comportementVol: ComportementVol, ) {
         this.comportementVol = comportementVol;
     }
 
-    // setComportementCancan(comportementCancan : ComportementCancan) {
-    //     this.comportementCancan = comportementCancan
-    // }
+    setComportementCancan(comportementCancan : ComportementCancan) {
+        this.comportementCancan = comportementCancan
+    }
 
     nager(): string {
         return "Tous les canards flottent, même les leurres ! ";

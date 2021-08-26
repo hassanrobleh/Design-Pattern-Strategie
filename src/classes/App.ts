@@ -3,12 +3,12 @@ import { PrototypeCanard } from './PrototypeCanard';
 import { Colvert } from './Colvert';
 
 export class App {
-    main() {
-        const colvert = new Colvert;
-        return colvert.effectuerVol();
-        // console.log(colvert.afficher())
-        
-        // colvert.effectuerCancan();
+    static main() {
+        let result = "";
+        let colvert = new Colvert;
+        result += colvert.effectuerCancan();
+        result += colvert.effectuerVol();
+        return result;
         // console.log('-----------------------------')
         
         // const propo = new PrototypeCanard();
@@ -19,8 +19,12 @@ export class App {
         // propo.effectuerVol()
 
     }
+
+    main1() {
+
+    }
 }
 
-const app = new App();
+// const app = new App();
 
-app.main();
+// app.main();
