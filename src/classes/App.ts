@@ -21,7 +21,7 @@ export class App {
     static main2() {
         let propo = new PrototypeCanard();
         propo.setComportementVol(new PropulsionAReaction());
-        propo.effectuerVol();
+        return propo.effectuerVol();
     }
 }
 
