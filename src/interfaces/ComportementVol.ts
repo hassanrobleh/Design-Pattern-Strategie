@@ -1,0 +1,4 @@
+interface ComportementVol {
+
+    voler(): void;
+}

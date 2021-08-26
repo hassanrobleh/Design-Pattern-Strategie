@@ -1,0 +1,3 @@
+interface ComportementCancan {
+    cancaner(): void;
+}
