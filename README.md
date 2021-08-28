@@ -3,6 +3,6 @@ Le pattern Stratégie est un pattern de comportemental qui permet de définir un
 encapsuler chacun et les rendre interchangeable tout en assurant que chaque algorithme puisse évaluer
 indépendamment des clients qui les utilisent.
 
-![Uploading Capture d’écran (1).png…]()
+![Capture d’écran (4)](https://user-images.githubusercontent.com/30626086/131218376-be1213bc-00fa-44ea-85f3-fabe9d63b21d.png)
 
 
